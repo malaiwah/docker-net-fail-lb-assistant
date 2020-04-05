@@ -1,0 +1,18 @@
+{
+    "interval": 15,
+    "timeout": 1,
+    "dns_servers": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "1.1.1.1"
+    ],
+    "queries": [
+        "www.google.com",
+        "www.microsoft.com",
+        "dfskjhsfksbfhsdbfjsbfjh-does-not-exist-for-sure-sbfjshbfhjsdfbsjhf.yyy"
+    ],
+    "interfaces_filter": "(lo.*|eth\\d+)",
+    "preferred_interfaces": [],
+    "netfilter_chain_name": "test_chain",
+    "mode": "monitor|failover|roundrobin"
+}

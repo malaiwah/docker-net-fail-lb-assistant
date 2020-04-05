@@ -1,0 +1,4 @@
+python-iptables==0.14.0
+Flask==1.1.2
+dnspython==1.16.0
+netifaces==0.10.9
